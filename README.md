@@ -31,17 +31,20 @@ This project aims to predict diabetes health indicators using a large dataset of
 ```
 ML-Diabetes-Project/
 ├── data/
-│   ├── raw/                    # Original dataset files from Kaggle
+│   ├── raw/
+│   │   ├── diabetes_012_health_indicators_BRFSS2015.csv
+│   │   ├── diabetes_binary_5050split_health_indicators_BRFSS2015.csv
+│   │   └── diabetes_binary_health_indicators_BRFSS2015.csv
 │   └── processed/              # Cleaned and processed dataset
-├── notebooks/                  # Jupyter Notebooks for EDA and analysis
-├── src/                        # Python scripts
-│   ├── preprocessing.py
-│   ├── traditional_models.py
-│   └── deep_learning_models.py
+├── notebooks/
+│   ├── data_preprocessing.ipynb         # Data Cleaning & Processing
+│   ├── eda_analysis.ipynb               # Exploratory Data Analysis
+│   ├── traditional_models.ipynb         # Traditional ML Models
+│   └── deep_learning.ipynb              # Deep Learning Models
 ├── models/                     # Saved trained models (pickle/h5)
 ├── report/                     # Final report and supporting documents
 ├── README.md
-└── requirements.txt            # Required Python libraries
+└── requirements.txt
 ```
 
 ---
