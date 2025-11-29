@@ -1,7 +1,5 @@
-models/
-*.pkl
-*.h5
-*.joblib
-*.sav
+# Ignore all files in models directory
+models/*
 
+# But keep the .gitkeep file
 !models/.gitkeep
