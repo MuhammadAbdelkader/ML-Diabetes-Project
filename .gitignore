@@ -1,6 +1,5 @@
-models/*.pkl
+models/
 *.pkl
+*.h5
 *.joblib
-__pycache__/
-.ipynb_checkpoints/
-.DS_Store
+*.sav
